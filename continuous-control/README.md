@@ -35,5 +35,5 @@ After download, open Jupyter notebook and follow steps for training and run Reac
 - Continuous_Control.ipynb for DDPG version.
 
 ### References
-1. [ontinuous control with deep reinforcement learning](https://arxiv.org/pdf/1509.02971.pdf)
+1. [Continuous control with deep reinforcement learning](https://arxiv.org/pdf/1509.02971.pdf)
 
