@@ -28,3 +28,12 @@ The code are written in Pytorch and Python 3. The following softwares are requir
 
 ### Instructions
 
+To run DDPG with enhancement version (Windows). Download the following files
+- Reacher1_Windows_x86_64/Reacher.exe
+- Continuous_Control_highreward.ipynb
+- ddpg_agent_highreward.py
+- ddpg_model_highreward.py
+- checkpoint_actor_highreward.pth
+- checkpoint_critic_highreward.pth
+
+After download, open Continuous_Control_highreward.ipynb and follow steps in the Jupyter notebook.
