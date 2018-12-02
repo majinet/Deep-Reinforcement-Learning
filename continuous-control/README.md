@@ -18,3 +18,13 @@ This project is run on Unity ML-Agents Simulator. You need to install [Unity ML-
 - Vector Action space size (per agent):      4
 
 ### Getting Started
+
+The code are written in Pytorch and Python 3. The following softwares are required;
+- [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
+- Pytorch
+- Python 3
+- Numpy
+- Cuda 8 (Optional) if you want to run on GPU
+
+### Instructions
+
