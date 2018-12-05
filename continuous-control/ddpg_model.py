@@ -27,6 +27,7 @@ class Actor(nn.Module):
         self.fc1 = nn.Linear(state_size, fc1_units)
         self.fc2 = nn.Linear(fc1_units, fc2_units)
         self.bn1 = nn.BatchNorm1d(num_features=state_size)
+        self.bn2 = nn.BatchNorm1d(num_features=fc1_units)
         self.fc3 = nn.Linear(fc2_units, action_size)
         self.reset_parameters()
 
@@ -37,8 +38,9 @@ class Actor(nn.Module):
 
     def forward(self, state):
         """Build an actor (policy) network that maps states -> actions."""
-        x = self.bn1(state)
-        x = F.relu(self.fc1(x))
+        #x = self.bn1(state)
+        x = F.relu(self.fc1(state))
+        x = self.bn2(x)
         x = F.relu(self.fc2(x))
         return F.tanh(self.fc3(x))
 
