@@ -31,7 +31,6 @@ The code are written in Pytorch and Python 3. The following softwares are requir
 To train and run Reacher. Download the all files in continuous-control folder
 
 After download, open Jupyter notebook and follow steps for training and run Reacher.
-- Continuous_Control_highreward.ipynb for DDPG enhancement version.
 - Continuous_Control.ipynb for DDPG version.
 
 ### Results
