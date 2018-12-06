@@ -3,4 +3,4 @@ This is a student project page for Udacity Deep Reinforcement Learning Nanodegre
 
 1. navigation
 2. [continuous control](continuous-control/README.md)
-3. [Collaboration and Competition](p3_collab-compet/README.md)
+3. [Collaboration and Competition](collab-compet/README.md)
