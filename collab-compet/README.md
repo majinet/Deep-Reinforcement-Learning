@@ -31,7 +31,7 @@ The code are written in Pytorch and Python 3. The following softwares are requir
 To train and run Tennis, Download the all files in collab-compet folder
 
 After download, open Jupyter notebook and follow steps for training and run Reacher.
-- Continuous_Control.ipynb for DDPG version.
+- Tennis.ipynb for DDPG version.
 
 ### Results
 
