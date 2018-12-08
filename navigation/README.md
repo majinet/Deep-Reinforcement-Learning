@@ -36,6 +36,6 @@ After download, open Jupyter notebook and follow steps for training and run Reac
 
 ### References
 1. [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf)
-2. Sample code of Deep Q Network.
+2. Sample code of Deep Q Network in Nanodegree program.
 
 
